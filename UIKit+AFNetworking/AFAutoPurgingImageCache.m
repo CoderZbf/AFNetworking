@@ -42,6 +42,7 @@
         self.image = image;
         self.identifier = identifier;
 
+        
         CGSize imageSize = CGSizeMake(image.size.width * image.scale, image.size.height * image.scale);
         CGFloat bytesPerPixel = 4.0;
         CGFloat bytesPerSize = imageSize.width * imageSize.height;
